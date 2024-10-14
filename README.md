@@ -1,6 +1,6 @@
 # Emotion Detection from Facial Expressions
 
-![Live Demo](demo.png)
+![Live Demo](main image.png)
 
 ## Project Overview
 The goal of this project is to classify a person's emotion based on their facial expression. The dataset used contains 35,887 images categorized into seven emotions: neutral, angry, happy, disgusted, fearful, sad, and surprised. The dataset is divided into two folders: training and validation.
@@ -33,6 +33,8 @@ The layers are designed to efficiently capture the important features of facial 
 The model was trained using a batch size of 32, with images resized to 180x180 pixels. TensorFlow and Keras were used to build and train the model, and the training process utilized data augmentation and preprocessing techniques to improve generalization.
 
 The results showed that with a relatively simple model, reasonable accuracy was achieved in classifying the emotions. It is expected that a more complex model with additional layers and fine-tuning would further improve the accuracy.
+
+![Live Demo](metric study.png)
 
 ## Live Demo
 In this project, a live demo can be performed using the webcam of a computer. The model will detect the emotion of a face seen by the webcam in real-time.
